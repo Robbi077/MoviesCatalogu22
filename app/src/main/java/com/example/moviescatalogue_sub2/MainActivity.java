@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //Penambahan Tab
         mAdapter = new TbAdapter(getSupportFragmentManager());
         mAdapter.AddFragment(new NowPlaying(), getString(R.string.nowplaying));
+        mAdapter.AddFragment(new Upcoming(), getString(R.string.Upcoming));
         vwPager.setAdapter(mAdapter);
         tbLayout.setupWithViewPager(vwPager);
         ActionBar actionBar = getSupportActionBar();

@@ -30,7 +30,7 @@ public class NowPlaying extends Fragment {
         view = inflater.inflate(R.layout.fragment_now_playing, container, false);
         RecyclerView recyclerView = view.findViewById(R.id.RcNow_Playing);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-
+wait
         return view;
     }
 
