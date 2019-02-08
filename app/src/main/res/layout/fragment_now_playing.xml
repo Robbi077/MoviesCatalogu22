@@ -6,10 +6,6 @@
     android:background="@color/cardview_dark_background"
     android:gravity="center"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/horizontalMargin"
-    android:paddingTop="@dimen/verticalMargin"
-    android:paddingRight="@dimen/horizontalMargin"
-    android:paddingBottom="@dimen/verticalMargin"
     tools:context=".NowPlaying">
 
     <!-- TODO: Update blank fragment layout -->
