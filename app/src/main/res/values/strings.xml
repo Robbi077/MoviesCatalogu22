@@ -3,6 +3,8 @@
     <string name="Language">Change Language</string>
     <string name="nowplaying">NOW PLAYING</string>
     <string name="Upcoming">UPCOMING</string>
+    <string name="detail">Details</string>
+    <string name="share">Share</string>
 
     <string-array name="data_name">
         <item>Spirder-Man Into the SpiderVerse</item>

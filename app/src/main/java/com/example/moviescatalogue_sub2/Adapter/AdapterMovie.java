@@ -22,6 +22,11 @@ public class AdapterMovie extends BaseAdapter {
         movies = new ArrayList<>();
     }
 
+    public AdapterMovie(Context context, ArrayList<Movie> movies) {
+        this.context = context;
+        this.movies = movies;
+    }
+
     public void setMovies(ArrayList<Movie> movies) {
         this.movies = movies;
     }
