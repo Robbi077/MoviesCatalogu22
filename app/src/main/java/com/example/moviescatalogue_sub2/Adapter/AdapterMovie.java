@@ -14,6 +14,7 @@ import com.example.moviescatalogue_sub2.R;
 import java.util.ArrayList;
 
 public class AdapterMovie extends BaseAdapter {
+
     private Context context;
     private ArrayList<Movie> movies;
 

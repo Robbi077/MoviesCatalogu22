@@ -4,4 +4,6 @@
     <string name="Language">Rubah Bahasa</string>
     <string name="nowplaying">SEDANG TAYANG</string>
     <string name="Upcoming">AKAN TAYANG</string>
+    <string name="detail">Baca</string>
+    <string name="share">Bagikan</string>
 </resources>

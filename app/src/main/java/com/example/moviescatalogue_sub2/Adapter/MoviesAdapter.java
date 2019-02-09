@@ -32,7 +32,8 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.myViewHold
     @NonNull
     @Override
     public myViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(context).inflate(R.layout.item_movie, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext())
+                .inflate(R.layout.item_movie, viewGroup, false);
         return new myViewHolder(view);
     }
 
@@ -41,10 +42,10 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.myViewHold
         myViewHolder.txtName.setText(listMovies.get(i).getcName());
         myViewHolder.txtDesc.setText(listMovies.get(i).getcDescription());
         myViewHolder.imageView.setImageResource(listMovies.get(i).getcImage());
-        myViewHolder.btnShare.setOnClickListener(new View.OnClickListener() {
+       myViewHolder.btnShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Log.d("position", listMovies.get(i).getcName().toString());
+                Log.d("position", listMovies.get(i).getcName().toString());
                 Toast.makeText(context, "Share " + listMovies.get(i).getcName(), Toast.LENGTH_LONG);
             }
         });
@@ -76,6 +77,8 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.myViewHold
             txtDesc = itemView.findViewById(R.id.txt_Desc);
             txtName = itemView.findViewById(R.id.txt_Name);
             imageView = itemView.findViewById(R.id.img_Poster);
+            btnDetail = itemView.findViewById(R.id.btn_detail);
+            btnShare = itemView.findViewById(R.id.btn_share);
         }
     }
 }

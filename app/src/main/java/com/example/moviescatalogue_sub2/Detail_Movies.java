@@ -6,7 +6,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Detail_Movies extends AppCompatActivity {
-
     private ImageView imageView, imPoster;
     private TextView txtName, txtDesc;
 

@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.moviescatalogue_sub2.Adapter.AdapterMovie;
 import com.example.moviescatalogue_sub2.Adapter.MoviesAdapter;
 
 import java.util.ArrayList;
