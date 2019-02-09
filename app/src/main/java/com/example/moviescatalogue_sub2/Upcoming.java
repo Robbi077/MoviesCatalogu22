@@ -55,9 +55,9 @@ public class Upcoming extends Fragment {
     }
 
     private void prepare() {
-        dtName = getResources().getStringArray(R.array.data_name);
-        dtDesc = getResources().getStringArray(R.array.data_description);
-        dtPoster = getResources().obtainTypedArray(R.array.data_poster);
+        dtName = getResources().getStringArray(R.array.data_name_upcoming);
+        dtDesc = getResources().getStringArray(R.array.data_desc_upcoming);
+        dtPoster = getResources().obtainTypedArray(R.array.data_poster_upcoming);
     }
 
     private void addItem() {

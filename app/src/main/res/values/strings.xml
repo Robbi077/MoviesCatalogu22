@@ -30,6 +30,30 @@
         <item>@drawable/poster_second_act</item>
     </array>
 
+    <string-array name="data_name_upcoming">
+        <item>Aquaman</item>
+        <item>Beautiful Boy</item>
+        <item>Cold War</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Escape Room</item>
+    </string-array>
+
+    <string-array name="data_desc_upcoming">
+        <item>Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm.</item>
+        <item>After he and his first wife separate, journalist David Sheff struggles to help their teenage son,</item>
+        <item>A man and a woman meet in the ruins of post-war Poland. With vastly different backgrounds and temperaments, </item>
+        <item>Earth is peaceful following the Tournament of Power. Realizing that the universes still hold many more strong people yet to see</item>
+        <item>Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.</item>
+    </string-array>
+
+    <array name="data_poster_upcoming">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_beautiful_boy</item>
+        <item>@drawable/poster_cold_war</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_escape_room</item>
+    </array>
+
     <!-- TODO: Remove or change this placeholder text -->
 
 
