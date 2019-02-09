@@ -36,6 +36,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.myViewHold
         myViewHolder.txtName.setText(listMovies.get(i).getcName());
         myViewHolder.txtDesc.setText(listMovies.get(i).getcDescription());
         myViewHolder.imageView.setImageResource(listMovies.get(i).getcImage());
+
     }
 
     @Override

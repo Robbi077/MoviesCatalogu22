@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name ="app_name">MoviesCatalogue_Sub2</string>
     <string name="Language">Rubah Bahasa</string>
     <string name="nowplaying">SEDANG TAYANG</string>
     <string name="Upcoming">AKAN TAYANG</string>
